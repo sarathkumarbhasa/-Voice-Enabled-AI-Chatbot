@@ -3,7 +3,7 @@ import pyttsx3
 import speech_recognition as sr
 
 
-genai.configure(api_key="AIzaSyB9L9YsntoBAA5TGYN5_ez7QNIMRj-yGQI")
+genai.configure(api_key="")
 
 
 model = genai.GenerativeModel(model_name="models/gemini-2.0-flash")
